@@ -18,6 +18,7 @@ public class VentanaPalabra extends JFrame {
 	private JTextField textJ1;
 	private JTextField textJ2;
 
+	
 	/**
 	 * Launch the application.
 	 */
