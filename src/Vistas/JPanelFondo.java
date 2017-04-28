@@ -16,7 +16,7 @@ public class JPanelFondo extends JPanel{
        try {                
           image = ImageIO.read(new File("src/imgs/fondo.jpg"));
        } catch (IOException ex) {
-    	   
+    	 
        }
     }
 

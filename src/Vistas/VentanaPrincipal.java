@@ -15,8 +15,6 @@ public class VentanaPrincipal extends JFrame {
 
 	private JPanelFondo contentPane;
 
-	
-
 	public VentanaPrincipal(String title) {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 500, 500);
