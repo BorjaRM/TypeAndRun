@@ -124,6 +124,4 @@ public class VentanaPalabra extends JFrame {
 	public JTextField getTextJ2() {
 		return textJ2;
 	}
-
-	
 }

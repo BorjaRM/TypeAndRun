@@ -43,7 +43,5 @@ public class VentanaPrincipal extends JFrame {
 		salir.setAlignmentX(Component.CENTER_ALIGNMENT);
 		zonaBotones.add(salir);
 	}
-
-	
 	
 }
