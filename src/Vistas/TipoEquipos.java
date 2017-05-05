@@ -40,7 +40,7 @@ public class TipoEquipos extends JFrame {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
-		contentPane.setBorder(new EmptyBorder(70, 50, 70, 50));
+		contentPane.setBorder(new EmptyBorder(65, 50, 65, 50));
 		contentPane.setLayout(new BorderLayout(0, 0));
 		setContentPane(contentPane);
 		
