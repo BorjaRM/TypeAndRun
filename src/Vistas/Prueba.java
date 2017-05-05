@@ -57,7 +57,7 @@ public class Prueba extends JFrame {
 		btnNewButton_1.setFont(new Font("Engravers MT", Font.PLAIN, 11));
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				System.out.println("EQUIPOS elegidos aleatoriamente.")
+				System.out.println("EQUIPOS elegidos aleatoriamente.");
 			}
 		});
 		contentPane.add(btnNewButton_1, BorderLayout.SOUTH);
