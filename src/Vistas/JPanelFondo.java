@@ -27,5 +27,6 @@ public class JPanelFondo extends JPanel{
         int heigh=this.getHeight();
         g.drawImage(image, 0, 0, width, heigh, this); // see javadoc for more info on the parameters            
     }
+    
 
 }

@@ -44,4 +44,5 @@ public class VentanaPrincipal extends JFrame {
 		zonaBotones.add(salir);
 	}
 
+	
 }

@@ -11,6 +11,8 @@ import javax.swing.SwingConstants;
 import java.awt.Component;
 import javax.swing.Box;
 import javax.swing.JTextField;
+import java.awt.Color;
+import java.awt.SystemColor;
 
 public class VentanaPalabra extends JFrame {
 
@@ -62,6 +64,7 @@ public class VentanaPalabra extends JFrame {
 		AreaJ1.add(verticalStrut_2);
 		
 		textJ1 = new JTextField();
+		textJ1.setBackground(SystemColor.menu);
 		AreaJ1.add(textJ1);
 		textJ1.setColumns(10);
 		
@@ -85,6 +88,7 @@ public class VentanaPalabra extends JFrame {
 		AreaJ2.add(verticalStrut_3);
 		
 		textJ2 = new JTextField();
+		textJ2.setBackground(SystemColor.menu);
 		AreaJ2.add(textJ2);
 		textJ2.setColumns(10);
 		
@@ -100,6 +104,7 @@ public class VentanaPalabra extends JFrame {
 		AreaJ2.add(verticalStrut_5);
 		
 		Box horizontalBox = Box.createHorizontalBox();
+		horizontalBox.setBackground(SystemColor.inactiveCaptionBorder);
 		contentPane.add(horizontalBox, BorderLayout.CENTER);
 		
 		Component horizontalGlue = Box.createHorizontalGlue();
